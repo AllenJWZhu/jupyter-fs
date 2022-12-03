@@ -1,6 +1,6 @@
 PIP := pip
 PYTHON := python
-YARN := jlpm
+YARN := jlpm 
 
 testjs: ## Make js tests
 	cd js; ${YARN} test

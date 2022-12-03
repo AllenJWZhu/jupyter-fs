@@ -1,5 +1,8 @@
-import "isomorphic-fetch";
+/**
+ * @jest-environment jsdom
+ */
 
+import "isomorphic-fetch";
 import { _activate } from "../src/index";
 
 describe("Checks activate", () => {
